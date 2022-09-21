@@ -1,3 +1,3 @@
-## Education project "Assembly gaming PC" by Glo Academy
+## The basic adaptive template
 
-**Технологии:** HTML, CSS, JS 
+**Technologies:** HTML, CSS (SASS), JS 
