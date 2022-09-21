@@ -243,9 +243,7 @@ a.scroll_arrow:before {
 }
 
 .header-logo {
-  display: block;
-  width: 4rem;
-  height: 4rem;
+  font-size: 4rem;
 }
 
 .header-nav {
