@@ -189,10 +189,6 @@ a.scroll_arrow:before {
 
 .header {
   position: relative;
-  background-image: url(../img/main-screen__bg.jpg);
-  background-repeat: no-repeat;
-  background-position: 89% 0px;
-  background-size: cover;
 }
 @media (min-width: 1200px) {
   .header {
