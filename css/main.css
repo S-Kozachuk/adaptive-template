@@ -544,12 +544,11 @@ body.lock {
   align-items: center;
   width: 10.2rem;
   height: 8rem;
-  background-color: #12121299;
+  background-color: #a3a3a3;
 }
 @media (min-width: 1200px) {
   .timer__item {
     height: 11.2rem;
-    background-color: #121212;
   }
 }
 
