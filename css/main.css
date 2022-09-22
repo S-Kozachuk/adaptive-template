@@ -28,18 +28,18 @@
   scroll-behavior: smooth;
   --main-text: 1.6rem;
   --white: #fff;
-  --light-gradient: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
-  --dark-gradient: linear-gradient(95deg, #DF5950 11.19%, #451046 93.72%);
+  --light-gradient: #a3a3a3;
 }
 
 html, body {
+  margin: 0;
   font-family: "Roboto", sans-serif;
   font-size: 62.5%;
   font-weight: 400;
   color: var(--white);
-  background: linear-gradient(to right top, #060606, #050504, #030303, #020201, #000000);
-  background-image: url(../img/bg_m.jpg);
+  background: #7e7e7e;
   background-repeat: repeat;
+  box-sizing: border-box;
 }
 
 img {
@@ -128,11 +128,6 @@ ul {
   background: var(--light-gradient);
 }
 
-.button--dark {
-  font-weight: 700;
-  background: var(--dark-gradient);
-}
-
 .scroll_arrow {
   position: fixed;
   bottom: 1rem;
@@ -187,10 +182,6 @@ a.scroll_arrow:before {
 
 .header {
   position: relative;
-  background-image: url(../img/main-screen__bg.jpg);
-  background-repeat: no-repeat;
-  background-position: 89% 0px;
-  background-size: cover;
 }
 @media (min-width: 1200px) {
   .header {
@@ -241,9 +232,7 @@ a.scroll_arrow:before {
 }
 
 .header-logo {
-  display: block;
-  width: 4rem;
-  height: 4rem;
+  font-size: 4rem;
 }
 
 .header-nav {
@@ -256,7 +245,6 @@ a.scroll_arrow:before {
   width: 100%;
   max-width: 32rem;
   list-style-type: none;
-  background-color: #000;
   transform: translateX(100%);
   transition: 0.5s;
 }
@@ -273,7 +261,6 @@ a.scroll_arrow:before {
     width: unset;
     max-width: unset;
     transform: unset;
-    background: linear-gradient(90deg, rgba(18, 18, 18, 0.3340686616) 0%, rgba(18, 18, 18, 0.5) 100%);
   }
   .header-nav li {
     padding: 5px 0;
@@ -551,12 +538,11 @@ body.lock {
   align-items: center;
   width: 10.2rem;
   height: 8rem;
-  background-color: #12121299;
+  background-color: #a3a3a3;
 }
 @media (min-width: 1200px) {
   .timer__item {
     height: 11.2rem;
-    background-color: #121212;
   }
 }
 
@@ -589,7 +575,6 @@ body.lock {
 .timer__text {
   font-size: calc(var(--main-text) - 30%);
   line-height: 1.4;
-  opacity: 0.4;
 }
 @media (min-width: 1200px) {
   .timer__text {
