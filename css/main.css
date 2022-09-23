@@ -441,7 +441,7 @@ button.header__button {
   margin: auto;
   width: 100%;
   height: 5px;
-  background-color: #7c6afa;
+  background-color: #fff;
   transition: 0.3s;
 }
 .toggle-menu span:before, .toggle-menu span:after {
@@ -450,7 +450,7 @@ button.header__button {
   content: "";
   width: 100%;
   height: 5px;
-  background-color: #7c6afa;
+  background-color: #fff;
   transition: 0.3s;
 }
 .toggle-menu span:before {
