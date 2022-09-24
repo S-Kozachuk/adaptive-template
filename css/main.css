@@ -1172,7 +1172,7 @@ button.cta__button {
   align-content: center;
   width: 3.5rem;
   height: 3.5rem;
-  background: linear-gradient(95deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  background: linear-gradient(95deg, #e0dce5 9.51%, #979797 90.23%);
   border-radius: 50%;
 }
 .cta-social__item:not(:last-child) {
