@@ -338,12 +338,12 @@ a.scroll_arrow:before {
   }
 }
 
-.header-nav > li > a {
+.header-nav > ul > li > a {
   text-decoration: none;
   color: #fff;
   transition: 0.4s;
 }
-.header-nav > li > a:hover {
+.header-nav > ul > li > a:hover {
   opacity: 0.5;
 }
 
