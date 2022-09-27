@@ -280,6 +280,10 @@ a.scroll_arrow:before {
   transition: 0.5s;
 }
 
+.header-nav > .header-logo {
+  font-size: 4rem;
+}
+
 .header-nav > li {
   margin-left: 20px;
   padding: 10px 0;
