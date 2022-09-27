@@ -1378,6 +1378,10 @@ button.cta__button {
   line-height: 1.6;
   color: var(--white);
 }
+.form__input:hover {
+  background-color: rgba(235, 235, 235, 0.4);
+  transition: 0.8s;
+}
 .form__input::placeholder {
   font-size: 1.3rem;
   font-weight: 400;
