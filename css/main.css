@@ -434,7 +434,6 @@ button.header__button {
   width: 45px;
   height: 50px;
   cursor: pointer;
-  z-index: 6;
 }
 .toggle-menu span {
   position: relative;
