@@ -516,6 +516,13 @@ body.lock {
   transition: 0.5s;
 }
 
+.header-nav > li a {
+  transition: 0.6s;
+}
+.header-nav > li a:hover {
+  opacity: 0.5;
+}
+
 .header-nav .cta-social {
   margin-left: 0;
   max-width: 25rem;
