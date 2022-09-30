@@ -612,14 +612,10 @@ body.lock {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   .our-work__img {
     width: 54.6rem;
     height: 54.9rem;
-  }
-}
-@media (min-width: 1440px) {
-  .our-work__img {
     margin-right: 13.9rem;
   }
 }
