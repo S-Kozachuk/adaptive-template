@@ -614,6 +614,7 @@ body.lock {
 @media (min-width: 768px) {
   .our-work__wrap {
     flex-direction: unset;
+    align-items: center;
   }
 }
 
