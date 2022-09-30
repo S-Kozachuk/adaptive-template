@@ -617,12 +617,6 @@ body.lock {
   }
 }
 
-@media (min-width: 768px) {
-  .our-work__img {
-    width: 29.6rem;
-    height: 29.9rem;
-  }
-}
 @media (min-width: 1200px) {
   .our-work__img {
     width: 54.6rem;
