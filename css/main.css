@@ -636,8 +636,8 @@ body.lock {
 @media (min-width: 768px) {
   .our-work__text {
     margin-left: 3rem;
-    padding-top: 4.9rem;
-    padding-bottom: 5rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
     max-width: 39rem;
   }
 }
