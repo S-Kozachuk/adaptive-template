@@ -592,7 +592,7 @@ body.lock {
 }
 @media (min-width: 1200px) {
   .our-work {
-    padding: 8rem 0 2rem;
+    padding: 8rem 0 8rem;
   }
 }
 @media (min-width: 1440px) {
